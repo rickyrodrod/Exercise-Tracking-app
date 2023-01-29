@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "FSTveWVlJIqkbQFUNX5l/lx8qnOg+QMEHs97NhCCakykSbo2G/YH1+eKKxLYlSDdE+NXtWTsDPI5XxbGHwPGGQ==",
+  "dgSpecHash": "Jy2UnmvnIHrUj1M1eWlo670atNn56wvk2idcoeq2EMOlmyZ4jJqfwbLcmclxxP4Yhfg/8amcCJQ5m7syFt8aSg==",
   "success": true,
-  "projectFilePath": "C:\\repos\\Exercise-Tracking-app\\ExerciseDataAccess.Service\\ExerciseDataAccess.Service\\ExerciseDataAccess.Service.csproj",
+  "projectFilePath": "C:\\repos\\Exercise-Tracking-app\\ExerciseDataAccess.Service\\ExerciseDataAccess.Service.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ricar\\.nuget\\packages\\google.protobuf\\3.18.0\\google.protobuf.3.18.0.nupkg.sha512",
     "C:\\Users\\ricar\\.nuget\\packages\\grpc.aspnetcore\\2.40.0\\grpc.aspnetcore.2.40.0.nupkg.sha512",
