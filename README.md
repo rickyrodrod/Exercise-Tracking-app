@@ -13,7 +13,6 @@
 Installed tools 
 - [x] Visual studio 2022 community
 - [x] MS SQL Server developer
-- [ ] 
    
 ### Features: 
 	MVP: Select an exercise and visualize 1RM over time
