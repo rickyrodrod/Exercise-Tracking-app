@@ -9,7 +9,9 @@
 *.user
 *.userosscache
 *.sln.docstates
-
+ExerciseDataAccess.Service\obj
+ExerciseDataAccess.Service\bin
+ExerciseDataAccess.Service\.vs
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
 
