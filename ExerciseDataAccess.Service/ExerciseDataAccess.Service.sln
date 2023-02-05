@@ -5,6 +5,8 @@ VisualStudioVersion = 17.4.33213.308
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExerciseDataAccess.Service", "ExerciseDataAccess.Service.csproj", "{F3206B8F-376E-4CA9-A6EE-3099EC64AC2E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExerciseTrackingData", "..\ExerciseTrackingData\ExerciseTrackingData.csproj", "{DA6ACC65-7C45-4AC5-AD2D-DD2B0C14B99D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{F3206B8F-376E-4CA9-A6EE-3099EC64AC2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F3206B8F-376E-4CA9-A6EE-3099EC64AC2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F3206B8F-376E-4CA9-A6EE-3099EC64AC2E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA6ACC65-7C45-4AC5-AD2D-DD2B0C14B99D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA6ACC65-7C45-4AC5-AD2D-DD2B0C14B99D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA6ACC65-7C45-4AC5-AD2D-DD2B0C14B99D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA6ACC65-7C45-4AC5-AD2D-DD2B0C14B99D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
