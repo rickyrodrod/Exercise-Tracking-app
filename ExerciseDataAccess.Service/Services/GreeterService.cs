@@ -1,9 +1,10 @@
 using ExerciseDataAccess.Service;
+using ExerciseDataAccess.Service.Contracts;
 using Grpc.Core;
 
 namespace ExerciseDataAccess.Service.Services
 {
-    public class GreeterService : Greeter.GreeterBase
+    public class GreeterService : IGreeterService
     {
         private readonly ILogger<GreeterService> _logger;
         public GreeterService(ILogger<GreeterService> logger)
@@ -11,9 +12,9 @@ namespace ExerciseDataAccess.Service.Services
             _logger = logger;
         }
 
-        public override Task<HelloReply> SayHello(HelloRequest request, ServerCallContext context)
+        public Task<HelloResponse> SayHelloAsync(Contracts.HelloRequest request)
         {
-            return Task.FromResult(new HelloReply
+            return Task.FromResult(new HelloResponse
             {
                 Message = "Hello " + request.Name
             });
